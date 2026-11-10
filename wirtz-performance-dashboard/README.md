@@ -121,10 +121,3 @@ Notebook outputs have been cleared to keep the repository compact. Run the cells
 The code-only package preserves the application logic and visual assets. It excludes the report PDF and removes notebook outputs and execution counts. Dependency files and a `.gitignore` were added for repository use.
 
 Python syntax, notebook structure, local documentation links and ZIP integrity were checked during packaging. The dashboard was not run end-to-end because the event dataset was absent. No passing runtime test or live-site availability is claimed.
-
-## Authors
-
-- Daniel Filipe Pardal Monteiro
-- Francisco Rua Ferreira
-
-Academic group project — Advanced Data Visualization, University of Coimbra, 2025.
