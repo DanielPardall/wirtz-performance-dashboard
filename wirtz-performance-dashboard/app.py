@@ -860,7 +860,7 @@ app.layout = html.Div(style={'fontFamily': 'Arial', 'paddingLeft': '30px', 'padd
 
     html.Footer([
         html.Div([
-            html.P("© 2025 | Dashboard developed by Daniel Monteiro and Francisco Rua", style={
+            html.P("© 2025 | Dashboard developed by Daniel Monteiro", style={
                 'margin': '0',
                 'color': 'white',
                 'fontSize': '17.5px',
@@ -868,8 +868,7 @@ app.layout = html.Div(style={'fontFamily': 'Arial', 'paddingLeft': '30px', 'padd
             }),
             html.P([
                 html.Span("Contacts: ", style={'fontWeight': 'bold'}),
-                "Daniel Monteiro (uc2021248878@student.uc.pt) | ",
-                "Francisco Rua (uc2021219799@student.uc.pt)"
+                "Daniel Monteiro (uc2021248878@student.uc.pt)"
             ], style={
                 'margin': '4px 0',
                 'color': 'white',
