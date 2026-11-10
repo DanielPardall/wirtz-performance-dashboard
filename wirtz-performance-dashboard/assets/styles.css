@@ -1,0 +1,144 @@
+.hover-reveal {
+  transition: transform 0.25s ease, opacity 0.25s ease;
+  opacity: 0.4;
+  border: 0.1px solid #171B26; 
+  border-radius: 8px;
+  padding: 2px 20px 2px 20px; 
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+.hover-reveal:hover {
+  transform: scale(1.03);
+  opacity: 1;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+.hover-reveal h4 {
+  padding-left: 15px; 
+}
+
+.hover-reveal h4:not(:first-of-type) {
+  margin-top: 25px;
+}
+
+.dash-spinner::after {
+  content: "Loading...";
+  font-size: 16px;
+  font-weight: 500;
+  color: #555;
+  display: block;
+  text-align: center;
+  margin-top: 8px;
+  animation: fadeIn 1s ease-in-out infinite alternate;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0.4; }
+  to { opacity: 1; }
+}
+
+.pass-info {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  border: 0.1px solid #171B26;
+  border-radius: 8px;
+  padding: 2px 20px 2px 20px;
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: justify;
+  max-width: 860px;
+  margin-left: 90px; 
+  margin-bottom: 40px;
+}
+
+.pass-info:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+.pass-info p {
+  margin-bottom: 16px;
+}
+
+.hover-grow-button {
+  background-color: #BD1F30;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 13px;
+  cursor: pointer;
+  margin: 10px auto;
+  display: block;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hover-grow-button:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+.dribble-info {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  border: 0.1px solid #171B26;
+  border-radius: 8px;
+  padding: 2px 20px 2px 20px;
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: justify;
+  max-width: 860px;
+  margin-left: 120px;  
+  margin-bottom: 40px;
+}
+
+.dribble-info:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+.dribble-info p {
+  margin-bottom: 16px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #f4f4f4;
+    font-weight: bold;
+    font-size: 15px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #B0B0B0;
+}
+
+.nav-link.active {
+    color: 				#F39C12; 
+    border-bottom: 2px solid 				#F39C12;
+}
+
+.scroll-button {
+    position: fixed;
+    bottom: 70px;
+    right: 5px;
+    background-color: #171B26; 
+    color: white;               /* seta branca inicialmente */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 22px;
+    cursor: pointer;
+    z-index: 999;
+    transition: color 0.3s ease; /* transição na cor da seta */
+}
+
+.scroll-button:hover {
+    color: #B0B0B0; 
+}
