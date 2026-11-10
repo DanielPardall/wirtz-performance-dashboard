@@ -1,4 +1,4 @@
-# Florian Wirtz — Football Performance Dashboard
+# Florian Wirtz - Football Performance Dashboard
 
 **An interactive football analytics dashboard exploring Florian Wirtz's Bundesliga 2023/24 performances through passing, shooting, dribbling and team connections.**
 
